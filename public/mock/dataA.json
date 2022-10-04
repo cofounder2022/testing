@@ -1,0 +1,73 @@
+[
+  {
+    "suggestionTerm": [
+      {
+        "term": "Adeline Nichols",
+        "url": "/product"
+      },
+      {
+        "term": "Wilder Holden",
+        "url": "/product"
+      },
+      {
+        "term": "Patsy Carey",
+        "url": "/product"
+      },
+      {
+        "term": "Felicia Pickett",
+        "url": "/product"
+      },
+      {
+        "term": "Kerri Dyer",
+        "url": "/product"
+      }
+    ],
+    "product": [
+      {
+        "id": 0,
+        "title": "Jeanne Cooley",
+        "price": "$3,920",
+        "brand": "exchange",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 1,
+        "title": "Jenifer Curtis",
+        "price": "$1,183",
+        "brand": "forest",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 2,
+        "title": "Lena Bond",
+        "price": "$2,293",
+        "brand": "blue",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 3,
+        "title": "Lott Beach",
+        "price": "$2,018",
+        "brand": "blue",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 4,
+        "title": "Tillman Bowman",
+        "price": "$1,081",
+        "brand": "exchange",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      }
+    ],
+    "collection": {
+      "id": 0,
+      "title": "Barbra",
+      "url": "/collection"
+    }
+  }
+]

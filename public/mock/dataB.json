@@ -1,0 +1,73 @@
+[
+  {
+    "suggestionTerm": [
+      {
+        "term": "Sonia Dorsey",
+        "url": "/product"
+      },
+      {
+        "term": "Elena Good",
+        "url": "/product"
+      },
+      {
+        "term": "Rosemary Wood",
+        "url": "/product"
+      },
+      {
+        "term": "Chan Anthony",
+        "url": "/product"
+      },
+      {
+        "term": "Leslie Rose",
+        "url": "/product"
+      }
+    ],
+    "product": [
+      {
+        "id": 0,
+        "title": "Roseann Maldonado",
+        "price": "$2,751",
+        "brand": "blue",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 1,
+        "title": "Caroline Jones",
+        "price": "$3,968",
+        "brand": "blue",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 2,
+        "title": "Stuart Carey",
+        "price": "$2,088",
+        "brand": "blue",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 3,
+        "title": "Hester Hall",
+        "price": "$1,937",
+        "brand": "exchange",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 4,
+        "title": "Amelia Wise",
+        "price": "$2,903",
+        "brand": "forest",
+        "url": "/product",
+        "image": "https://picsum.photos/200/300"
+      }
+    ],
+    "collection": {
+      "id": 0,
+      "title": "Ingrid",
+      "url": "/collection"
+    }
+  }
+]
