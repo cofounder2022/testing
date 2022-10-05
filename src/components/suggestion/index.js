@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Box, Typography } from "@mui/material";
 
-const Suggestion = React.memo(({ data }) => {
+const Suggestion = ({ data }) => {
   return (
     <Box>
       <Box sx={{backgroundColor: '#eeeee4', fontSize: '14px', padding: '5px 10px'}}>
@@ -12,8 +12,6 @@ const Suggestion = React.memo(({ data }) => {
       ))}
     </Box>
   );
-});
-
-Suggestion.displayName = 'Suggestion'
+};
 
 export default Suggestion;

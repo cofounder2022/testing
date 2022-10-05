@@ -4,7 +4,7 @@ import Collection from "../collection";
 import Suggestion from "../suggestion";
 import ProductList from "../product";
 
-export default function BasicPopover({ event, data }) {
+const BasicPopover = React.memo(({ event, data }) => {
   const [res, setRes] = useState(data);
 
   useEffect(() => {
@@ -20,4 +20,10 @@ export default function BasicPopover({ event, data }) {
       <ProductList data={res[0].product} />
     </Box>
   );
-}
+})
+
+BasicPopover.displayName = 'BasicPopover'
+
+export default BasicPopover
+
+
