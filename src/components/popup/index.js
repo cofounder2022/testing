@@ -4,7 +4,7 @@ import Collection from "../collection";
 import Suggestion from "../suggestion";
 import ProductList from "../product";
 
-const BasicPopover = React.memo(({ event, data }) => {
+const BasicPopover = React.memo(({ data }) => {
   const [res, setRes] = useState(data);
 
   useEffect(() => {

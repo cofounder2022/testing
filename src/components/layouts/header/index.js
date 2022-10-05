@@ -49,7 +49,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function SearchAppBar() {
-  const [event, setEvent] = useState(null);
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("")
   const handleChange = async (e) => {
@@ -64,7 +63,6 @@ export default function SearchAppBar() {
         throw new Error("No data match");
       }
       const dataRes = await res.json();
-      setEvent(e);
       setData(dataRes);
     } catch (err) {
       setData(null);
@@ -108,7 +106,7 @@ export default function SearchAppBar() {
               onChange={handleChange}
               inputProps={{ "aria-label": "search" }}
             />
-            {data && data.length > 0 && <PopUp event={event} data={data} /> }
+            {data && data.length > 0 && <PopUp data={data} /> }
           </Search>
         </Toolbar>
       </AppBar>
